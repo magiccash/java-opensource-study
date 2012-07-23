@@ -1,0 +1,16 @@
+<web>
+    <servlet>
+        <class>com.messagecenter.counter.servlet.KMSCounterServlet</class>
+        <mapping>kms_counter</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.messagecenter.message.servlet.KMSMessageServlet</class>
+        <mapping>kms_message</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.messagecenter.message.servlet.KMSNotifyServlet</class>
+        <mapping>kms_notify</mapping>
+    </servlet>
+</web>

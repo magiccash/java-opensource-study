@@ -1,0 +1,10 @@
+<server port="8080" address="0.0.0.0">
+	<param name="acceptRanges" value="true"/>
+	<param name="dirAllowed" value="true"/>
+	<param name="putAllowed" value="false"/>
+	<param name="delAllowed" value="false"/>
+	<param name="redirectWelcome" value="false"/>
+	<param name="minGzipLength" value="8192"/>
+	
+	<default-servlet>/*.html</default-servlet>
+</server>

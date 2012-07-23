@@ -1,0 +1,308 @@
+2012-04-12 14:34:15,828 INFO [com.messagecenter.config.webservice.WebServerConfiguration:84] - parse server.xml address=127.0.0.1,port=8080
+2012-04-12 14:34:15,908 ERROR [com.messagecenter.config.redis.RedisConfiguration:80] - server_auth is null
+2012-04-12 14:34:15,937 INFO [com.messagecenter.redis.RedisService:48] - Redis pool configuration: redis.clients.jedis.JedisPoolConfig@f55ff2[maxIdle=10,minIdle=0,maxActive=50,maxWait=1000,whenExhaustedAction=1,testOnBorrow=true,testOnReturn=false,testWhileIdle=true,timeBetweenEvictionRunsMillis=15000,numTestsPerEvictionRun=-1,minEvictableIdleTimeMillis=10000,softMinEvictableIdleTimeMillis=-1,lifo=true]
+2012-04-12 14:34:15,941 INFO [com.messagecenter.config.webservice.ServletConfiguration:66] - add servlet com.messagecenter.counter.servlet.KMSCounterServlet
+2012-04-12 14:34:15,944 INFO [com.messagecenter.config.MessageConfig:55] -  default conifgMap={task={expiretime=0, quantity=1}, permissions={expiretime=0, quantity=1}, datareport={expiretime=0, quantity=1}}
+2012-04-12 14:34:16,010 INFO [com.messagecenter.config.MessageConfig:123] - init conifgMap={task={expiretime=100, quantity=5}, permissions={expiretime=0, quantity=100}, datareport={expiretime=1000, quantity=20}}
+2012-04-12 14:34:16,010 INFO [com.messagecenter.config.webservice.ServletConfiguration:66] - add servlet com.messagecenter.message.servlet.KMSMessageServlet
+2012-04-12 14:34:16,010 WARN [org.mortbay.jetty.servlet.ServletHandler:303] - pathSpec should start with '/' or '*' : kms_counter
+2012-04-12 14:34:16,011 WARN [org.mortbay.jetty.servlet.ServletHandler:303] - pathSpec should start with '/' or '*' : kms_message
+2012-04-12 14:34:16,017 INFO [org.mortbay.http.HttpServer:684] - Version Jetty/5.1.11RC0
+2012-04-12 14:34:16,033 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.servlet.WebApplicationHandler@1af4abb
+2012-04-12 14:34:16,035 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.servlet.WebApplicationHandler@51f266
+2012-04-12 14:34:16,036 INFO [org.mortbay.util.Container:74] - Started WebApplicationContext[/,/]
+2012-04-12 14:34:16,044 INFO [org.mortbay.http.SocketListener:205] - Started SocketListener on 127.0.0.1:8080
+2012-04-12 14:34:16,044 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.Server@1a5fb5a
+2012-04-12 14:55:28,118 INFO [com.messagecenter.config.webservice.WebServerConfiguration:84] - parse server.xml address=0.0.0.0,port=8080
+2012-04-12 14:55:28,190 ERROR [com.messagecenter.config.redis.RedisConfiguration:80] - server_auth is null
+2012-04-12 14:55:28,217 INFO [com.messagecenter.redis.RedisService:48] - Redis pool configuration: redis.clients.jedis.JedisPoolConfig@f55ff2[maxIdle=10,minIdle=0,maxActive=50,maxWait=1000,whenExhaustedAction=1,testOnBorrow=true,testOnReturn=false,testWhileIdle=true,timeBetweenEvictionRunsMillis=15000,numTestsPerEvictionRun=-1,minEvictableIdleTimeMillis=10000,softMinEvictableIdleTimeMillis=-1,lifo=true]
+2012-04-12 14:55:28,221 INFO [com.messagecenter.config.webservice.ServletConfiguration:66] - add servlet com.messagecenter.counter.servlet.KMSCounterServlet
+2012-04-12 14:55:28,224 INFO [com.messagecenter.config.MessageConfig:55] -  default conifgMap={task={expiretime=0, quantity=1}, permissions={expiretime=0, quantity=1}, datareport={expiretime=0, quantity=1}}
+2012-04-12 14:55:28,276 INFO [com.messagecenter.config.MessageConfig:123] - init conifgMap={task={expiretime=100, quantity=5}, permissions={expiretime=0, quantity=100}, datareport={expiretime=1000, quantity=20}}
+2012-04-12 14:55:28,277 INFO [com.messagecenter.config.webservice.ServletConfiguration:66] - add servlet com.messagecenter.message.servlet.KMSMessageServlet
+2012-04-12 14:55:28,277 WARN [org.mortbay.jetty.servlet.ServletHandler:303] - pathSpec should start with '/' or '*' : kms_counter
+2012-04-12 14:55:28,277 WARN [org.mortbay.jetty.servlet.ServletHandler:303] - pathSpec should start with '/' or '*' : kms_message
+2012-04-12 14:55:28,286 INFO [org.mortbay.http.HttpServer:684] - Version Jetty/5.1.11RC0
+2012-04-12 14:55:28,304 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.servlet.WebApplicationHandler@1533ff4
+2012-04-12 14:55:28,307 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.servlet.WebApplicationHandler@11d45
+2012-04-12 14:55:28,308 INFO [org.mortbay.util.Container:74] - Started WebApplicationContext[/,/]
+2012-04-12 14:55:28,313 INFO [org.mortbay.http.SocketListener:205] - Started SocketListener on 0.0.0.0:8080
+2012-04-12 14:55:28,313 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.Server@1a5fb5a
+2012-04-12 14:56:57,784 INFO [com.messagecenter.config.webservice.WebServerConfiguration:84] - parse server.xml address=0.0.0.0,port=8080
+2012-04-12 14:56:57,855 ERROR [com.messagecenter.config.redis.RedisConfiguration:80] - server_auth is null
+2012-04-12 14:56:57,881 INFO [com.messagecenter.redis.RedisService:48] - Redis pool configuration: redis.clients.jedis.JedisPoolConfig@f55ff2[maxIdle=10,minIdle=0,maxActive=50,maxWait=1000,whenExhaustedAction=1,testOnBorrow=true,testOnReturn=false,testWhileIdle=true,timeBetweenEvictionRunsMillis=15000,numTestsPerEvictionRun=-1,minEvictableIdleTimeMillis=10000,softMinEvictableIdleTimeMillis=-1,lifo=true]
+2012-04-12 14:56:57,885 INFO [com.messagecenter.config.webservice.ServletConfiguration:66] - add servlet com.messagecenter.counter.servlet.KMSCounterServlet
+2012-04-12 14:56:57,888 INFO [com.messagecenter.config.MessageConfig:55] -  default conifgMap={task={expiretime=0, quantity=1}, permissions={expiretime=0, quantity=1}, datareport={expiretime=0, quantity=1}}
+2012-04-12 14:56:57,934 INFO [com.messagecenter.config.MessageConfig:123] - init conifgMap={task={expiretime=100, quantity=5}, permissions={expiretime=0, quantity=100}, datareport={expiretime=1000, quantity=20}}
+2012-04-12 14:56:57,935 INFO [com.messagecenter.config.webservice.ServletConfiguration:66] - add servlet com.messagecenter.message.servlet.KMSMessageServlet
+2012-04-12 14:56:57,935 WARN [org.mortbay.jetty.servlet.ServletHandler:303] - pathSpec should start with '/' or '*' : kms_counter
+2012-04-12 14:56:57,935 WARN [org.mortbay.jetty.servlet.ServletHandler:303] - pathSpec should start with '/' or '*' : kms_message
+2012-04-12 14:56:57,941 INFO [org.mortbay.http.HttpServer:684] - Version Jetty/5.1.11RC0
+2012-04-12 14:56:57,956 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.servlet.WebApplicationHandler@1af4abb
+2012-04-12 14:56:57,957 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.servlet.WebApplicationHandler@51f266
+2012-04-12 14:56:57,958 INFO [org.mortbay.util.Container:74] - Started WebApplicationContext[/,/]
+2012-04-12 14:56:57,962 INFO [org.mortbay.http.SocketListener:205] - Started SocketListener on 0.0.0.0:8080
+2012-04-12 14:56:57,962 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.Server@c3d062
+2012-04-12 14:57:12,735 ERROR [com.messagecenter.redis.RedisService:64] - Cannot get a connection: Could not get a resource from the pool
+2012-04-12 14:57:12,736 ERROR [com.messagecenter.message.servlet.KMSMessageServlet:130] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at com.messagecenter.redis.MessageServiceMapImpl.getSize(MessageServiceMapImpl.java:87)
+	at com.messagecenter.message.servlet.KMSMessageServlet.getSize(KMSMessageServlet.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:182)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:109)
+	at com.caucho.hessian.server.HessianServlet.service(HessianServlet.java:396)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:473)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1530)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:633)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1482)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:909)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:820)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:245)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2012-04-12 14:57:13,767 ERROR [com.messagecenter.redis.RedisService:64] - Cannot get a connection: Could not get a resource from the pool
+2012-04-12 14:57:13,767 ERROR [com.messagecenter.message.servlet.KMSMessageServlet:101] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at com.messagecenter.redis.MessageServiceMapImpl.generateMsgID(MessageServiceMapImpl.java:26)
+	at com.messagecenter.message.servlet.KMSMessageServlet.addMessage(KMSMessageServlet.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:182)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:109)
+	at com.caucho.hessian.server.HessianServlet.service(HessianServlet.java:396)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:473)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1530)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:633)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1482)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:909)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:820)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:245)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2012-04-12 14:57:14,780 ERROR [com.messagecenter.redis.RedisService:64] - Cannot get a connection: Could not get a resource from the pool
+2012-04-12 14:57:14,780 ERROR [com.messagecenter.message.servlet.KMSMessageServlet:41] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at com.messagecenter.redis.MessageServiceMapImpl.getAllMessages(MessageServiceMapImpl.java:38)
+	at com.messagecenter.message.servlet.KMSMessageServlet.getMessages(KMSMessageServlet.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:182)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:109)
+	at com.caucho.hessian.server.HessianServlet.service(HessianServlet.java:396)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:473)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1530)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:633)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1482)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:909)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:820)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:245)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2012-04-12 14:57:15,802 ERROR [com.messagecenter.redis.RedisService:64] - Cannot get a connection: Could not get a resource from the pool
+2012-04-12 14:57:15,802 ERROR [com.messagecenter.message.servlet.KMSMessageServlet:101] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at com.messagecenter.redis.MessageServiceMapImpl.generateMsgID(MessageServiceMapImpl.java:26)
+	at com.messagecenter.message.servlet.KMSMessageServlet.addMessage(KMSMessageServlet.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:182)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:109)
+	at com.caucho.hessian.server.HessianServlet.service(HessianServlet.java:396)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:473)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1530)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:633)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1482)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:909)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:820)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:245)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2012-04-12 14:57:16,807 ERROR [com.messagecenter.redis.RedisService:64] - Cannot get a connection: Could not get a resource from the pool
+2012-04-12 14:57:16,807 ERROR [com.messagecenter.message.servlet.KMSMessageServlet:41] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at com.messagecenter.redis.MessageServiceMapImpl.getAllMessages(MessageServiceMapImpl.java:38)
+	at com.messagecenter.message.servlet.KMSMessageServlet.getMessages(KMSMessageServlet.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:182)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:109)
+	at com.caucho.hessian.server.HessianServlet.service(HessianServlet.java:396)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:473)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1530)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:633)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1482)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:909)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:820)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:245)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2012-04-12 14:57:17,831 ERROR [com.messagecenter.redis.RedisService:64] - Cannot get a connection: Could not get a resource from the pool
+2012-04-12 14:57:17,831 ERROR [com.messagecenter.message.servlet.KMSMessageServlet:41] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at com.messagecenter.redis.MessageServiceMapImpl.getAllMessages(MessageServiceMapImpl.java:38)
+	at com.messagecenter.message.servlet.KMSMessageServlet.getMessages(KMSMessageServlet.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:182)
+	at com.caucho.hessian.server.HessianSkeleton.invoke(HessianSkeleton.java:109)
+	at com.caucho.hessian.server.HessianServlet.service(HessianServlet.java:396)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.mortbay.jetty.servlet.WebApplicationHandler.dispatch(WebApplicationHandler.java:473)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:568)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1530)
+	at org.mortbay.jetty.servlet.WebApplicationContext.handle(WebApplicationContext.java:633)
+	at org.mortbay.http.HttpContext.handle(HttpContext.java:1482)
+	at org.mortbay.http.HttpServer.service(HttpServer.java:909)
+	at org.mortbay.http.HttpConnection.service(HttpConnection.java:820)
+	at org.mortbay.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.mortbay.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.mortbay.http.SocketListener.handleConnection(SocketListener.java:245)
+	at org.mortbay.util.ThreadedServer.handle(ThreadedServer.java:357)
+	at org.mortbay.util.ThreadPool$PoolThread.run(ThreadPool.java:534)
+2012-04-12 17:55:45,112 INFO [com.messagecenter.config.webservice.WebServerConfiguration:84] - parse server.xml address=0.0.0.0,port=8080
+2012-04-12 17:55:45,245 ERROR [com.messagecenter.config.redis.RedisConfiguration:80] - server_auth is null
+2012-04-12 17:55:45,312 INFO [com.messagecenter.redis.RedisService:48] - Redis pool configuration: redis.clients.jedis.JedisPoolConfig@f55ff2[maxIdle=10,minIdle=0,maxActive=50,maxWait=1000,whenExhaustedAction=1,testOnBorrow=true,testOnReturn=false,testWhileIdle=true,timeBetweenEvictionRunsMillis=15000,numTestsPerEvictionRun=-1,minEvictableIdleTimeMillis=10000,softMinEvictableIdleTimeMillis=-1,lifo=true]
+2012-04-12 17:55:45,315 INFO [com.messagecenter.config.webservice.ServletConfiguration:66] - add servlet com.messagecenter.counter.servlet.KMSCounterServlet
+2012-04-12 17:55:45,319 INFO [com.messagecenter.config.MessageConfig:55] -  default conifgMap={task={expiretime=0, quantity=1}, permissions={expiretime=0, quantity=1}, datareport={expiretime=0, quantity=1}}
+2012-04-12 17:55:45,387 INFO [com.messagecenter.config.MessageConfig:123] - init conifgMap={task={expiretime=100, quantity=5}, permissions={expiretime=0, quantity=100}, datareport={expiretime=1000, quantity=20}}
+2012-04-12 17:55:45,387 INFO [com.messagecenter.config.webservice.ServletConfiguration:66] - add servlet com.messagecenter.message.servlet.KMSMessageServlet
+2012-04-12 17:55:45,387 WARN [org.mortbay.jetty.servlet.ServletHandler:303] - pathSpec should start with '/' or '*' : kms_counter
+2012-04-12 17:55:45,388 WARN [org.mortbay.jetty.servlet.ServletHandler:303] - pathSpec should start with '/' or '*' : kms_message
+2012-04-12 17:55:45,413 INFO [org.mortbay.http.HttpServer:684] - Version Jetty/5.1.11RC0
+2012-04-12 17:55:45,443 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.servlet.WebApplicationHandler@1af4abb
+2012-04-12 17:55:45,445 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.servlet.WebApplicationHandler@51f266
+2012-04-12 17:55:45,445 INFO [org.mortbay.util.Container:74] - Started WebApplicationContext[/,/]
+2012-04-12 17:55:45,449 INFO [org.mortbay.http.SocketListener:205] - Started SocketListener on 0.0.0.0:8080
+2012-04-12 17:55:45,450 INFO [org.mortbay.util.Container:74] - Started org.mortbay.jetty.Server@1a5fb5a
+2012-04-12 17:57:33,320 ERROR [com.messagecenter.webservice.MessageCenter:57] - java.net.MalformedURLException: no protocol: nullkms_message
+java.net.MalformedURLException: no protocol: nullkms_message
+	at java.net.URL.<init>(URL.java:583)
+	at java.net.URL.<init>(URL.java:480)
+	at java.net.URL.<init>(URL.java:429)
+	at com.caucho.hessian.client.HessianProxyFactory.create(HessianProxyFactory.java:379)
+	at com.caucho.hessian.client.HessianProxyFactory.create(HessianProxyFactory.java:354)
+	at com.messagecenter.webservice.MessageCenter.getKMSMessageWebService(MessageCenter.java:54)
+	at com.messagecenter.message.servlet.KMSMessageServletOnlineTest.<init>(KMSMessageServletOnlineTest.java:18)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:209)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:258)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:255)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-04-12 17:57:33,327 ERROR [com.messagecenter.webservice.MessageCenter:57] - java.net.MalformedURLException: no protocol: nullkms_message
+java.net.MalformedURLException: no protocol: nullkms_message
+	at java.net.URL.<init>(URL.java:583)
+	at java.net.URL.<init>(URL.java:480)
+	at java.net.URL.<init>(URL.java:429)
+	at com.caucho.hessian.client.HessianProxyFactory.create(HessianProxyFactory.java:379)
+	at com.caucho.hessian.client.HessianProxyFactory.create(HessianProxyFactory.java:354)
+	at com.messagecenter.webservice.MessageCenter.getKMSMessageWebService(MessageCenter.java:54)
+	at com.messagecenter.message.servlet.KMSMessageServletOnlineTest.<init>(KMSMessageServletOnlineTest.java:18)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:209)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:258)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:255)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-04-12 17:57:33,330 ERROR [com.messagecenter.webservice.MessageCenter:57] - java.net.MalformedURLException: no protocol: nullkms_message
+java.net.MalformedURLException: no protocol: nullkms_message
+	at java.net.URL.<init>(URL.java:583)
+	at java.net.URL.<init>(URL.java:480)
+	at java.net.URL.<init>(URL.java:429)
+	at com.caucho.hessian.client.HessianProxyFactory.create(HessianProxyFactory.java:379)
+	at com.caucho.hessian.client.HessianProxyFactory.create(HessianProxyFactory.java:354)
+	at com.messagecenter.webservice.MessageCenter.getKMSMessageWebService(MessageCenter.java:54)
+	at com.messagecenter.message.servlet.KMSMessageServletOnlineTest.<init>(KMSMessageServletOnlineTest.java:18)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:209)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:258)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:255)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-04-12 17:58:14,075 INFO [com.messagecenter.message.servlet.KMSMessageServlet:85] - the timeout was set. key=msg:kms:ssssdd:s:232345454:task msgid=7 msg=wuban 来了！
+2012-04-12 17:58:14,102 INFO [com.messagecenter.message.servlet.KMSMessageServlet:85] - the timeout was set. key=msg:kms:ssssdd:s:232345454:task msgid=8 msg=wuban 来了！

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="31" version="2.0">
+<workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="130" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -8,13 +8,13 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="195" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
-<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="95" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -22,7 +22,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ant.ui.internal.editor.AntEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.pde.ui.buildEditor" itemType="typePlaceholder" x="38" y="22"/>
@@ -40,36 +41,67 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Heritrix.java" partName="Heritrix.java" path="D:/My DBank/workspace/MagicReptile/src/org/archive/crawler/Heritrix.java" title="Heritrix.java" tooltip="MagicReptile/src/org/archive/crawler/Heritrix.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MagicReptile/src/org/archive/crawler/Heritrix.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="20389" selectionTopPixel="7660"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogoutServlet.java" partName="LogoutServlet.java" path="D:/java-opensource-study/workspace/line-one/src/com/magic/lineone/servlet/LogoutServlet.java" title="LogoutServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LogoutServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/line-one/src/com/magic/lineone/servlet/LogoutServlet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1117" selectionTopPixel="260"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="heritrix.properties" partName="heritrix.properties" path="D:/My DBank/workspace/MagicReptile/conf/heritrix.properties" title="heritrix.properties" tooltip="MagicReptile/conf/heritrix.properties" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MagicReptile/conf/heritrix.properties"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9769" selectionTopPixel="2941"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebServer.java" partName="WebServer.java" path="D:/java-opensource-study/workspace/line-one/src/com/magic/lineone/webserver/WebServer.java" title="WebServer.java" tooltip="line-one/src/com/magic/lineone/webserver/WebServer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/line-one/src/com/magic/lineone/webserver/WebServer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="140" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineoneCreateServlet.java" partName="LineoneCreateServlet.java" path="D:/java-opensource-study/workspace/line-one/src/com/magic/lineone/servlet/LineoneCreateServlet.java" title="LineoneCreateServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LineoneCreateServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/line-one/src/com/magic/lineone/servlet/LineoneCreateServlet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1182" selectionTopPixel="744"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineoneListServlet.java" partName="LineoneListServlet.java" path="D:/java-opensource-study/workspace/line-one/src/com/magic/lineone/servlet/LineoneListServlet.java" title="LineoneListServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LineoneListServlet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/line-one/src/com/magic/lineone/servlet/LineoneListServlet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1821" selectionTopPixel="660"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbLineone.java" partName="DbLineone.java" path="D:/java-opensource-study/workspace/line-one/src/com/magic/lineone/db/DbLineone.java" title="DbLineone.java" tooltip="line-one/src/com/magic/lineone/db/DbLineone.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/line-one/src/com/magic/lineone/db/DbLineone.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="3515" selectionTopPixel="2090"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+<view id="org.eclipse.jdt.callhierarchy.view" partName="Call Hierarchy">
+<viewState search_scope_type="1"/>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
-<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
+<columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
@@ -78,48 +110,52 @@
 <customFilters userDefinedPatternsEnabled="false">
 <xmlDefinedFilters>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.maven.ide.eclipse.MavenModuleFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles" isEnabled="true"/>
-<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
-<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
-<viewState/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
+<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
+<sorter groupBy="CATEGORY_QUERY">&#x0A;<sorter>&#x0A;<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sort1 sortDirection="1" sortKey="RANK"/>
+<sort2 sortDirection="1" sortKey="DATE_CREATED"/>
+<sort3 sortDirection="1" sortKey="NONE"/>
+<sort4 sortDirection="1" sortKey="NONE"/>
+<sort5 sortDirection="1" sortKey="NONE"/>
+<sort6 sortDirection="1" sortKey="NONE"/>
+<sort7 sortDirection="1" sortKey="NONE"/>
+</sorter>
+</sorter>
+<filteredTreeFindHistory/>
+</viewState>
 </view>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PropertiesFileEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -145,6 +181,7 @@
 <alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
 <alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
 <alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.wb.core.ui.actionset"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
 <show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
@@ -179,20 +216,16 @@
 <perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="topRight" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.AllMarkersView" ratio="0.3"/>
-<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
-<view id="org.eclipse.wst.server.ui.ServersView" ratio="0.3"/>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" ratio="0.3"/>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" ratio="0.3"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
 <layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
@@ -207,24 +240,33 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25978917" ratioLeft="345" ratioRight="983" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6090469" ratioLeft="377" ratioRight="242" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
-<page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
-<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="LabelNotFound"/>
-<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<info part="org.eclipse.ui.editorss" ratio="0.25461254" ratioLeft="345" ratioRight="1010" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6090469" ratioLeft="377" ratioRight="242" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info folder="true" part="topRight" ratio="0.734856" ratioLeft="740" ratioRight="267" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -251,6 +293,10 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.wb.core.ui.actionset"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -267,6 +313,7 @@
 <show_view_action id="org.eclipse.pde.runtime.LogView"/>
 <show_view_action id="org.eclipse.ant.ui.views.AntView"/>
 <show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_in_time id="org.eclipse.team.ui.GenericHistoryView" time="1334560496699"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
@@ -287,14 +334,11 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
-<view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars>
-<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@938160" orientation="512" selectedTabId="org.eclipse.jdt.callhierarchy.view" style="0">
 <fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+<view id="org.eclipse.jdt.callhierarchy.view" ratio="0.29977462"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -319,25 +363,23 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25978917" ratioLeft="345" ratioRight="983" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.67689824" ratioLeft="419" ratioRight="200" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.25828314" ratioLeft="343" ratioRight="985" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.5218094" ratioLeft="323" ratioRight="296" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@a03932" ratio="0.7497497" ratioLeft="749" ratioRight="250" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@a03932" ratio="0.8269231" ratioLeft="860" ratioRight="180" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -351,7 +393,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@938160" ratio="0.49949342" ratioLeft="493" ratioRight="494" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@938160" ratio="0.66049385" ratioLeft="642" ratioRight="330" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.jdt.callhierarchy.view" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -379,6 +421,10 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.actions.maven"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.help.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.wb.core.ui.actionset"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="org.eclipse.debug.ui.DebugView"/>
 <show_view_action id="org.eclipse.debug.ui.VariableView"/>
@@ -402,9 +448,9 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.debug.ui.BreakpointView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
@@ -457,167 +503,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/quartz-test/src/org/quartz/examples/example2/SimpleJob.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=quartz-test/C:\/Program Files \(x86)\/Java\/jdk1.7.0_03\/jre\/lib\/rt.jar&lt;java.util.concurrent(ScheduledThreadPoolExecutor.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=quartz-test/D:\/Collaborative work\/My DBank\/workspace\/quartz-2.1.3\/quartz-all-2.1.3.jar&lt;org.quartz.simpl(SimpleThreadPool$WorkerThread.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=quartz-test/C:\/Program Files \(x86)\/Java\/jdk1.7.0_03\/jre\/lib\/rt.jar&lt;java.lang(Thread.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/quartz-test/src/org/quartz/examples/example1/HelloJob.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/quartz/src/main/java/org/quartz/impl/jdbcjobstore/JobStoreTX.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=quartz-test/C:\/Program Files \(x86)\/Java\/jdk1.7.0_03\/jre\/lib\/rt.jar&lt;java.util.concurrent.atomic(AtomicBoolean.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/quartz-test/src/org/quartz/examples/example2/SimpleJob.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MagicReptile/src/org/apache/commons/httpclient/Cookie.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MagicReptile/src/org/archive/crawler/Heritrix.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=MagicReptile/C:\/Program Files \(x86)\/Java\/jdk1.7.0_03\/jre\/lib\/rt.jar&lt;sun.net.www.protocol.file(FileURLConnection.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/MagicReptile/conf/heritrix.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/MagicReptile/conf/jndi.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/MagicReptile/src/org/archive/util/tlds-alpha-by-domain.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/line-one/src/com/magic/lineone/db/DbLineone.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/line-one/src/com/magic/lineone/servlet/LineoneCreateServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/line-one/src/com/magic/lineone/servlet/LineoneQueryServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/line-one/web/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/line-one/src/com/magic/lineone/servlet/LineoneListServlet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/line-one/src/com/magic/lineone/webserver/WebServer.java"/>
 </editors>
-<item historyLabel="SimpleJob.java" index="0">
-<position info="not_deleted" x="1784" y="6"/>
+<item historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="1289" y="0"/>
 </item>
-<item historyLabel="ScheduledThreadPoolExecutor.class" index="1">
-<position info="not_deleted" x="3" y="0"/>
+<item historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="1486" y="0"/>
 </item>
-<item historyLabel="ScheduledThreadPoolExecutor.class" index="1">
-<position info="not_deleted" x="46441" y="0"/>
+<item historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="1489" y="0"/>
 </item>
-<item historyLabel="SimpleJob.java" index="0">
-<position info="not_deleted" x="1171" y="0"/>
+<item historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="1275" y="0"/>
 </item>
-<item historyLabel="SimpleThreadPool$WorkerThread.class" index="2">
-<position info="not_deleted" x="16513" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position/>
 </item>
-<item historyLabel="Thread.class" index="3">
-<position info="not_deleted" x="3" y="0"/>
+<item historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="1275" y="0"/>
 </item>
-<item historyLabel="Thread.class" index="3">
-<position info="not_deleted" x="25242" y="5"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position/>
 </item>
-<item historyLabel="SimpleThreadPool$WorkerThread.class" index="2">
-<position info="not_deleted" x="16513" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position/>
 </item>
-<item historyLabel="SimpleThreadPool$WorkerThread.class" index="2">
-<position info="not_deleted" x="16504" y="0"/>
+<item historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="962" y="28"/>
 </item>
-<item historyLabel="SimpleThreadPool$WorkerThread.class" index="2">
-<position info="not_deleted" x="16176" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="973" y="0"/>
 </item>
-<item historyLabel="SimpleThreadPool$WorkerThread.class" index="2">
-<position info="not_deleted" x="16502" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1249" y="0"/>
 </item>
-<item historyLabel="SimpleThreadPool$WorkerThread.class" index="2">
-<position info="not_deleted" x="14368" y="8"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1257" y="0"/>
 </item>
-<item historyLabel="HelloJob.java" index="4">
-<position info="not_deleted" x="4" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1258" y="0"/>
 </item>
-<item historyLabel="HelloJob.java" index="4">
-<position info="not_deleted" x="1959" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1243" y="6"/>
 </item>
-<item historyLabel="SimpleJob.java" index="0">
-<position info="not_deleted" x="1171" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1258" y="0"/>
 </item>
-<item historyLabel="SimpleThreadPool$WorkerThread.class" index="2">
-<position info="not_deleted" x="2145" y="7"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1302" y="0"/>
 </item>
-<item historyLabel="JobStoreTX.java" index="5">
-<position info="not_deleted" x="4" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1138" y="0"/>
 </item>
-<item historyLabel="JobStoreTX.java" index="5">
-<position info="not_deleted" x="1345" y="10"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1220" y="0"/>
 </item>
-<item historyLabel="SimpleThreadPool$WorkerThread.class" index="2">
-<position info="not_deleted" x="2145" y="7"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1393" y="0"/>
 </item>
-<item historyLabel="AtomicBoolean.class" index="6">
-<position info="not_deleted" x="1801" y="3"/>
+<item historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="1247" y="135"/>
 </item>
-<item historyLabel="SimpleThreadPool$WorkerThread.class" index="2">
-<position info="not_deleted" x="2145" y="7"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1690" y="0"/>
 </item>
-<item historyLabel="HelloJob.java" index="4">
-<position info="not_deleted" x="1959" y="0"/>
+<item historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="1247" y="135"/>
 </item>
-<item historyLabel="SimpleThreadPool$WorkerThread.class" index="2">
-<position info="not_deleted" x="2145" y="7"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="2049" y="0"/>
 </item>
-<item historyLabel="SimpleJob.java" index="0">
-<position info="not_deleted" x="1171" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1290" y="0"/>
 </item>
-<item historyLabel="SimpleJob.java" index="7">
-<position info="not_deleted" x="4" y="0"/>
+<item historyLabel="DbLineone.java" index="0">
+<position info="not_deleted" x="1043" y="10"/>
 </item>
-<item historyLabel="SimpleJob.java" index="7">
-<position info="not_deleted" x="1171" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1290" y="0"/>
 </item>
-<item historyLabel="Cookie.java" index="8">
-<position info="not_deleted" x="1777" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="50199" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position/>
 </item>
-<item historyLabel="FileURLConnection.class" index="10">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="50199" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="20061" y="4"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1596" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="34438" y="73"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1597" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="34338" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1616" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="33339" y="4"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1618" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="33615" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1662" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="33438" y="19"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1685" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="33487" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1686" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="6453" y="14"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="1687" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="6475" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="6274" y="10"/>
+<item historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="1578" y="147"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="20061" y="4"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="21262" y="0"/>
+<item historyLabel="LineoneQueryServlet.java" index="2">
+<position info="not_deleted" x="2292" y="0"/>
 </item>
-<item historyLabel="heritrix.properties" index="11">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="web.xml" index="3"/>
+<item historyLabel="LineoneListServlet.java" index="4">
+<position info="not_deleted" x="2292" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="21262" y="0"/>
+<item historyLabel="LineoneListServlet.java" index="4">
+<position info="not_deleted" x="2059" y="0"/>
 </item>
-<item historyLabel="jndi.properties" index="12">
-<position info="not_deleted" x="528" y="0"/>
+<item historyLabel="WebServer.java" index="5">
+<position info="not_deleted" x="140" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="20389" y="0"/>
+<item historyLabel="DbLineone.java" index="0">
+<position info="not_deleted" x="3515" y="13"/>
 </item>
-<item historyLabel="tlds-alpha-by-domain.txt" index="13">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="1468" y="0"/>
 </item>
-<item historyLabel="Heritrix.java" index="9">
-<position info="not_deleted" x="20389" y="0"/>
+<item historyLabel="LineoneListServlet.java" index="4">
+<position info="not_deleted" x="1821" y="0"/>
 </item>
-<item active="true" historyLabel="heritrix.properties" index="11">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="LineoneCreateServlet.java" index="1">
+<position info="not_deleted" x="1468" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -626,7 +665,7 @@
 <actionBarAdvisor/>
 <trimLayout>
 <trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@938160"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -640,50 +679,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="heritrix.properties" tooltip="MagicReptile/conf/heritrix.properties">
-<persistable path="/MagicReptile/conf/heritrix.properties"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbLineone.java" tooltip="line-one/src/com/magic/lineone/db/DbLineone.java">
+<persistable path="/line-one/src/com/magic/lineone/db/DbLineone.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="tlds-alpha-by-domain.txt" tooltip="MagicReptile/src/org/archive/util/tlds-alpha-by-domain.txt">
-<persistable path="/MagicReptile/src/org/archive/util/tlds-alpha-by-domain.txt"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="line-one/web/web.xml">
+<persistable path="/line-one/web/web.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="jndi.properties" tooltip="MagicReptile/conf/jndi.properties">
-<persistable path="/MagicReptile/conf/jndi.properties"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineoneQueryServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LineoneQueryServlet.java">
+<persistable path="/line-one/src/com/magic/lineone/servlet/LineoneQueryServlet.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="FileURLConnection.class" tooltip="sun.net.www.protocol.file.FileURLConnection">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=MagicReptile/C:\/Program Files \(x86)\/Java\/jdk1.7.0_03\/jre\/lib\/rt.jar&lt;sun.net.www.protocol.file(FileURLConnection.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LoginServlet.java">
+<persistable path="/line-one/src/com/magic/lineone/servlet/LoginServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Heritrix.java" tooltip="MagicReptile/src/org/archive/crawler/Heritrix.java">
-<persistable path="/MagicReptile/src/org/archive/crawler/Heritrix.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineoneServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LineoneServlet.java">
+<persistable path="/line-one/src/com/magic/lineone/servlet/LineoneServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cookie.java" tooltip="MagicReptile/src/org/apache/commons/httpclient/Cookie.java">
-<persistable path="/MagicReptile/src/org/apache/commons/httpclient/Cookie.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CheckServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/CheckServlet.java">
+<persistable path="/line-one/src/com/magic/lineone/servlet/CheckServlet.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AtomicBoolean.class" tooltip="java.util.concurrent.atomic.AtomicBoolean">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=quartz-test/C:\/Program Files \(x86)\/Java\/jdk1.7.0_03\/jre\/lib\/rt.jar&lt;java.util.concurrent.atomic(AtomicBoolean.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegisterServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/RegisterServlet.java">
+<persistable path="/line-one/src/com/magic/lineone/servlet/RegisterServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JobStoreSupport.java" tooltip="quartz/src/main/java/org/quartz/impl/jdbcjobstore/JobStoreSupport.java">
-<persistable path="/quartz/src/main/java/org/quartz/impl/jdbcjobstore/JobStoreSupport.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbCircle.java" tooltip="line-one/src/com/magic/lineone/db/DbCircle.java">
+<persistable path="/line-one/src/com/magic/lineone/db/DbCircle.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JobStoreTX.java" tooltip="quartz/src/main/java/org/quartz/impl/jdbcjobstore/JobStoreTX.java">
-<persistable path="/quartz/src/main/java/org/quartz/impl/jdbcjobstore/JobStoreTX.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbUser.java" tooltip="line-one/src/com/magic/lineone/db/DbUser.java">
+<persistable path="/line-one/src/com/magic/lineone/db/DbUser.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JdbcJobStoreTest.java" tooltip="quartz/src/test/java/org/quartz/impl/jdbcjobstore/JdbcJobStoreTest.java">
-<persistable path="/quartz/src/test/java/org/quartz/impl/jdbcjobstore/JdbcJobStoreTest.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebServer.java" tooltip="line-one/src/com/magic/lineone/webserver/WebServer.java">
+<persistable path="/line-one/src/com/magic/lineone/webserver/WebServer.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ThreadPoolExecutor.class" tooltip="java.util.concurrent.ThreadPoolExecutor">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=quartz-test/C:\/Program Files \(x86)\/Java\/jdk1.7.0_03\/jre\/lib\/rt.jar&lt;java.util.concurrent(ThreadPoolExecutor.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LocalSessionStore.java" tooltip="line-one/src/com/magic/lineone/session/LocalSessionStore.java">
+<persistable path="/line-one/src/com/magic/lineone/session/LocalSessionStore.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ScheduledThreadPoolExecutor.class" tooltip="java.util.concurrent.ScheduledThreadPoolExecutor">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=quartz-test/C:\/Program Files \(x86)\/Java\/jdk1.7.0_03\/jre\/lib\/rt.jar&lt;java.util.concurrent(ScheduledThreadPoolExecutor.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogoutServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LogoutServlet.java">
+<persistable path="/line-one/src/com/magic/lineone/servlet/LogoutServlet.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloJob.java" tooltip="quartz-test/src/org/quartz/examples/example1/HelloJob.java">
-<persistable path="/quartz-test/src/org/quartz/examples/example1/HelloJob.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/AbstractServlet.java">
+<persistable path="/line-one/src/com/magic/lineone/servlet/AbstractServlet.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Thread.class" tooltip="java.lang.Thread">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=quartz-test/C:\/Program Files \(x86)\/Java\/jdk1.7.0_03\/jre\/lib\/rt.jar&lt;java.lang(Thread.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="ClassList.txt" tooltip="NaviveBayesClassify/TrainningSet/ClassList.txt">
+<persistable path="/NaviveBayesClassify/TrainningSet/ClassList.txt"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="SimpleThreadPool$WorkerThread.class" tooltip="org.quartz.simpl.SimpleThreadPool$WorkerThread">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=quartz-test/D:\/Collaborative work\/My DBank\/workspace\/quartz-2.1.3\/quartz-all-2.1.3.jar&lt;org.quartz.simpl(SimpleThreadPool$WorkerThread.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="16.txt" tooltip="NaviveBayesClassify/TrainningSet/Sample/C000010/16.txt">
+<persistable path="/NaviveBayesClassify/TrainningSet/Sample/C000010/16.txt"/>
 </file>
 </mruList>
 </workbench>

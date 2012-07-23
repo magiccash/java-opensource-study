@@ -1,0 +1,54 @@
+<project basedir="." default="build" name="messagecenter_client">
+
+	<!-- Parameters -->
+	<property name="jar_name" value="messagecenter_client" />
+	<property name="target" value="1.5" />
+	<property name="source" value="1.5" />
+	<property name="version" value="0.1" />
+	<property name="debug" value="true" />
+	<property name="encoding" value="UTF-8" />
+
+	<property name="build_dir" value="build" />
+	<property name="tmp_dir" value="${build_dir}/tmp" />
+	<property name="lib_dir" value="lib" />
+	<property name="src_dir" value="src" />
+
+	<path id="classpath">
+		<fileset dir="${lib_dir}" includes="**/*.jar" />
+	</path>
+
+	<!-- Initialize -->
+	<target name="init">
+		
+		<delete dir="${build_dir}" />
+		<mkdir dir="${build_dir}" />
+		<mkdir dir="${tmp_dir}" />
+
+	</target>
+
+	<!-- Build -->
+	<target name="build" depends="init">
+
+		<javac srcdir="${src_dir}" debug="${debug}" destdir="${tmp_dir}" source="${source}" target="${target}" encoding="${encoding}">
+			<classpath refid="classpath" />
+		</javac>
+
+		<jar destfile="${build_dir}/${jar_name}-${version}.jar">
+			<fileset dir="${tmp_dir}">
+				<include name="com/messagecenter/counter/IKMSCounter.class" />
+				<include name="com/messagecenter/counter/KMSCounterType.class" />
+				<include name="com/messagecenter/message/IKMSMessage.class" />
+				<include name="com/messagecenter/message/KMSMessageType.class" />
+				<include name="com/messagecenter/message/IKMSNotify.class" />
+				<include name="com/messagecenter/webservice/MessageCenter.class" />
+				<include name="com/messagecenter/webservice/Interface.class"/>
+			</fileset>
+		</jar>
+		<delete dir="${tmp_dir}" />
+	</target>
+
+	<!-- Clean -->
+	<target name="clean">
+	
+	</target>
+</project>

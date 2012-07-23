@@ -1,0 +1,32 @@
+<web>
+    <servlet>
+        <class>com.magic.lineone.servlet.LoginServlet</class>
+        <mapping>login</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.LogoutServlet</class>
+        <mapping>logout</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.CheckServlet</class>
+        <mapping>check</mapping>
+    </servlet>
+    
+     <servlet>
+        <class>com.magic.lineone.servlet.RegisterServlet</class>
+        <mapping>register</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.LineoneCreateServlet</class>
+        <mapping>lineoneCreate</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.LineoneListServlet</class>
+        <mapping>lineone</mapping>
+    </servlet>
+    
+</web>

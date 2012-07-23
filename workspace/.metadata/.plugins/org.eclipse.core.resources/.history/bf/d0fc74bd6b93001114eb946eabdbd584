@@ -1,0 +1,31 @@
+package com.magic.lineone.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+
+public class LineoneServlet extends AbstractServlet {
+
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 6049615452868842907L;
+
+    @Override
+    public void dealWithCookie (HttpServletRequest request, HttpServletResponse response, String sid, String username,
+            String userid) {
+
+        PrintWriter writer = null;
+        try {
+            writer = response.getWriter ();
+            writer.write ("hello world");
+        }
+        catch (IOException e) {
+            Logger.getLogger (this.getClass ()).error (e, e);
+        }
+    }
+}

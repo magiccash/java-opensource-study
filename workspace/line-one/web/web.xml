@@ -1,0 +1,108 @@
+<web>
+    <servlet>
+        <class>com.magic.lineone.servlet.LoginServlet</class>
+        <mapping>login</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.LogoutServlet</class>
+        <mapping>logout</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.CheckServlet</class>
+        <mapping>check</mapping>
+    </servlet>
+    
+     <servlet>
+        <class>com.magic.lineone.servlet.RegisterServlet</class>
+        <mapping>register</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.LineoneCreateServlet</class>
+        <mapping>lineoneCreate</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.LineoneListServlet</class>
+        <mapping>lineoneList</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.LineoneDeleteServlet</class>
+        <mapping>lineoneDelete</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.LineoneNumServlet</class>
+        <mapping>lineoneNum</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.CircleCreateServlet</class>
+        <mapping>circleCreate</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.CircleDeleteServlet</class>
+        <mapping>circleDelete</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.CircleListServlet</class>
+        <mapping>circleList</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.MyCircleListServlet</class>
+        <mapping>myCircleList</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.JoinCircleListServlet</class>
+        <mapping>joinCircleList</mapping>
+    </servlet>
+    
+     <servlet>
+        <class>com.magic.lineone.servlet.CircleJoinServlet</class>
+        <mapping>joinCircle</mapping>
+    </servlet>
+    
+     <servlet>
+        <class>com.magic.lineone.servlet.CircleQuitServlet</class>
+        <mapping>quitCircle</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.CommentCreateServlet</class>
+        <mapping>commentCreate</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.CommentDeleteServlet</class>
+        <mapping>commentDelete</mapping>
+    </servlet>
+    
+     <servlet>
+        <class>com.magic.lineone.servlet.CommentListServlet</class>
+        <mapping>commentList</mapping>
+    </servlet>
+    
+    
+     <servlet>
+        <class>com.magic.lineone.servlet.LineoneIndexServlet</class>
+        <mapping>lineoneIndex</mapping>
+    </servlet>
+    
+    <servlet>
+        <class>com.magic.lineone.servlet.CircleIndexServlet</class>
+        <mapping>circleIndex</mapping>
+    </servlet>
+    
+     <servlet>
+        <class>com.magic.lineone.servlet.UserIndexServlet</class>
+        <mapping>userIndex</mapping>
+    </servlet>
+    
+</web>

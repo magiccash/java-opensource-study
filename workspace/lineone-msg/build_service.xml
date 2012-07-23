@@ -1,0 +1,59 @@
+<project basedir="." default="build" name="messagecenter_service">
+
+	<!-- Parameters -->
+	<property name="jar_name" value="messagecenter_service" />
+	<property name="target" value="1.5" />
+	<property name="source" value="1.5" />
+	<property name="version" value="0.1" />
+	<property name="debug" value="true" />
+	<property name="encoding" value="UTF-8" />
+
+	<property name="build_dir" value="build" />
+	<property name="tmp_dir" value="${build_dir}/tmp" />
+	<property name="lib_dir" value="lib" />
+	<property name="src_dir" value="src" />
+
+
+	<path id="classpath">
+		<fileset dir="${lib_dir}" includes="**/*.jar" />
+	</path>
+
+	<!-- Initialize -->
+	<target name="init">
+		<delete dir="${build_dir}" />
+		<mkdir dir="${build_dir}" />
+		<mkdir dir="${tmp_dir}" />
+
+	</target>
+
+	<!-- Build -->
+	<target name="build" depends="init">
+
+		<javac srcdir="${src_dir}" debug="${debug}" destdir="${tmp_dir}" source="${source}" target="${target}" encoding="${encoding}">
+			<classpath refid="classpath" />
+		</javac>
+
+		<jar destfile="${build_dir}/${jar_name}-${version}.jar" basedir="${tmp_dir}">
+
+			<fileset dir="${tmp_dir}">
+				<exclude name="com/messagecenter/counter/IKMSCounter.class" />
+				<exclude name="com/messagecenter/counter/KMSCounterType.class" />
+				<exclude name="com/messagecenter/message/IKMSMessage.class" />
+				<exclude name="com/messagecenter/message/KMSMessageType.class" />
+				<exclude name="com/messagecenter/webservice/MessageCenter.class" />
+				<exclude name="com/messagecenter/webservice/Interface.class"/>
+			</fileset>
+
+			<manifest>
+				<attribute name="Main-Class" value="com.messagecenter.webserver.WebServer" />
+				<attribute name="Class-Path" value="lib/commons-logging-1.1.1.jar lib/javax.servlet.jar lib/org.mortbay.jetty.jar lib/dom4j-1.6.1.jar lib/log4j-1.2.15.jar lib/commons-pool-1.5.5.jar lib/commons-lang3-3.0-beta.jar lib/jedis-2.0.0.jar lib/hessian-4.0.3.jar ./" />
+			</manifest>
+		</jar>
+		<delete dir="${tmp_dir}" />
+	</target>
+
+	<!-- Clean -->
+	<target name="clean">
+
+	</target>
+</project>

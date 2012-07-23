@@ -1,0 +1,61 @@
+package com.magic.lineone.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.magic.lineone.config.WebServiceConfiguration;
+import com.magic.lineone.db.DbLineone;
+
+public class LineoneCreateServlet extends AbstractServlet {
+
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 6049615452868842907L;
+
+    private final DbLineone   dbLineone        = DbLineone.getInstance (WebServiceConfiguration.getInstance ()
+                                                       .getJdbcurl ());
+
+    @Override
+    public void dealWithCookie (HttpServletRequest request, HttpServletResponse response, String sid, String username,
+            String userid) {
+
+        JSONObject ret = new JSONObject ();
+        String failureReason = null;
+
+        String content = request.getParameter ("content");
+
+        int lineoneID = dbLineone.insert (content, userid);
+
+        JSONObject object = new JSONObject ();
+
+        try {
+            object.put ("lineoneid", lineoneID);
+
+            ret.put ("result", "true");
+            ret.put ("rst", object);
+            ret.put ("errno", 0);
+            ret.put ("err", "");
+        }
+        catch (JSONException e) {
+            Logger.getLogger (this.getClass ()).error (e, e);
+            failureReason = "make json error";
+        }
+
+        PrintWriter writer = null;
+        try {
+            writer = response.getWriter ();
+            writer.write ("hello world");
+        }
+        catch (IOException e) {
+            Logger.getLogger (this.getClass ()).error (e, e);
+        }
+    }
+}

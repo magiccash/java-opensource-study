@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/org.mortbay.jetty.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.0-beta.jar"/>
+	<classpathentry kind="lib" path="lib/jedis-2.0.0.jar" sourcepath="D:/java/xetorthio-jedis-jedis-2.0.0-52-g72ca494.zip"/>
+	<classpathentry kind="lib" path="lib/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool-1.5.5.jar" sourcepath="D:/java/eclipse/${user.home}/.m2/repository/commons-pool/commons-pool/1.5.5/commons-pool-1.5.5-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hessian-4.0.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
