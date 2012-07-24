@@ -1,6 +1,6 @@
 package com.magic.search.client.impl;
 
-
+import java.util.List;
 
 import com.magic.search.client.SearchClient;
 
@@ -11,4 +11,5 @@ public abstract class SearchClientImpl<P,R> implements SearchClient<P, R>{
 	public SearchClientImpl(String serviceUrl) {
 		this.serviceUrl = serviceUrl;
 	}
+
 }

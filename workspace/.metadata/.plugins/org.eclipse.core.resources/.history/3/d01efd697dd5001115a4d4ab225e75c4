@@ -1,6 +1,6 @@
 package com.magic.search.client.impl;
 
-
+import java.util.List;
 
 import com.magic.search.client.SearchClient;
 

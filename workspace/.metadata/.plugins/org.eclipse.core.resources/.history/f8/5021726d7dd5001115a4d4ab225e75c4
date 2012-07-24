@@ -14,10 +14,8 @@ public class UserInfoSearchClientImpl extends SearchClientImpl<UserInfoParamBean
 	}
 
 	@Override
-	public List<UserInfoResultBean> doSearch(UserInfoParamBean p) {
-	
+	public List<R> doSearch(P p) {
+		
 		return null;
 	}
-
-	
 }

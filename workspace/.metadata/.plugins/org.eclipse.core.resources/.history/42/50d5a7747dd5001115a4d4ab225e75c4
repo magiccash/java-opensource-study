@@ -15,7 +15,7 @@ public class UserInfoSearchClientImpl extends SearchClientImpl<UserInfoParamBean
 
 	@Override
 	public List<UserInfoResultBean> doSearch(UserInfoParamBean p) {
-	
+		// TODO Auto-generated method stub
 		return null;
 	}
 
