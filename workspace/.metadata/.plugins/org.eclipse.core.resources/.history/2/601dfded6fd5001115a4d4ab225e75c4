@@ -1,0 +1,7 @@
+package com.magic.search.client.impl;
+
+import com.magic.search.client.SearchClient;
+
+public class SearchClientImpl<P,R> implements SearchClient<P, R>{
+
+}

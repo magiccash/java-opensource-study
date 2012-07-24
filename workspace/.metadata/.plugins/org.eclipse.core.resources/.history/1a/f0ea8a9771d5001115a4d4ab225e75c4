@@ -1,0 +1,9 @@
+package com.magic.search.client.impl;
+
+import com.magic.search.bean.param.UserInfoParamBean;
+import com.magic.search.client.UserInfoSearchClient;
+
+public class UserInfoSearchClientImpl extends SearchClientImpl<UserInfoParamBean, R> implements
+		UserInfoSearchClient<P, R> {
+
+}

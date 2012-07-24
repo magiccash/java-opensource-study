@@ -1,0 +1,8 @@
+package com.magic.search.client;
+
+public class SearchClient<T> {
+	
+	public SearchClient() {
+	}
+
+}

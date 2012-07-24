@@ -1,0 +1,5 @@
+package com.magic.search.bean.param;
+
+public class UserInfoParamBean {
+
+}

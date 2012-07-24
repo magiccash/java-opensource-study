@@ -1,0 +1,15 @@
+package com.magic.search.client;
+
+import java.util.List;
+
+public interface SearchClient<P,R> {
+	
+	protected String serviceUrl = null;
+	
+	public SearchClient(String serviceUrl) {
+		this.serviceUrl = serviceUrl;
+	}
+	
+	public List<R> doSearch(P p);
+
+}

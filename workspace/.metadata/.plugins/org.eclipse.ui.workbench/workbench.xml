@@ -8,7 +8,7 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="195" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="164" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
@@ -28,7 +28,7 @@
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.pde.ui.buildEditor" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -38,36 +38,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogoutServlet.java" partName="LogoutServlet.java" path="D:/java-opensource-study/workspace/line-one/src/com/magic/lineone/servlet/LogoutServlet.java" title="LogoutServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LogoutServlet.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/line-one/src/com/magic/lineone/servlet/LogoutServlet.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1117" selectionTopPixel="260"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebServer.java" partName="WebServer.java" path="D:/java-opensource-study/workspace/line-one/src/com/magic/lineone/webserver/WebServer.java" title="WebServer.java" tooltip="line-one/src/com/magic/lineone/webserver/WebServer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/line-one/src/com/magic/lineone/webserver/WebServer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="140" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineoneCreateServlet.java" partName="LineoneCreateServlet.java" path="D:/java-opensource-study/workspace/line-one/src/com/magic/lineone/servlet/LineoneCreateServlet.java" title="LineoneCreateServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LineoneCreateServlet.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/line-one/src/com/magic/lineone/servlet/LineoneCreateServlet.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1182" selectionTopPixel="744"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineoneListServlet.java" partName="LineoneListServlet.java" path="D:/java-opensource-study/workspace/line-one/src/com/magic/lineone/servlet/LineoneListServlet.java" title="LineoneListServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LineoneListServlet.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/line-one/src/com/magic/lineone/servlet/LineoneListServlet.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1821" selectionTopPixel="660"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbLineone.java" partName="DbLineone.java" path="D:/java-opensource-study/workspace/line-one/src/com/magic/lineone/db/DbLineone.java" title="DbLineone.java" tooltip="line-one/src/com/magic/lineone/db/DbLineone.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/line-one/src/com/magic/lineone/db/DbLineone.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="3515" selectionTopPixel="2090"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.callhierarchy.view" partName="Call Hierarchy">
@@ -155,7 +129,7 @@
 </view>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -501,164 +475,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/line-one/src/com/magic/lineone/db/DbLineone.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/line-one/src/com/magic/lineone/servlet/LineoneCreateServlet.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/line-one/src/com/magic/lineone/servlet/LineoneQueryServlet.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/line-one/web/web.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/line-one/src/com/magic/lineone/servlet/LineoneListServlet.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/line-one/src/com/magic/lineone/webserver/WebServer.java"/>
-</editors>
-<item historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="1289" y="0"/>
-</item>
-<item historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="1486" y="0"/>
-</item>
-<item historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="1489" y="0"/>
-</item>
-<item historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="1275" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position/>
-</item>
-<item historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="1275" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position/>
-</item>
-<item historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="962" y="28"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="973" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1249" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1257" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1258" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1243" y="6"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1258" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1302" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1138" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1220" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1393" y="0"/>
-</item>
-<item historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="1247" y="135"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1690" y="0"/>
-</item>
-<item historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="1247" y="135"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="2049" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1290" y="0"/>
-</item>
-<item historyLabel="DbLineone.java" index="0">
-<position info="not_deleted" x="1043" y="10"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1290" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1596" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1597" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1616" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1618" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1662" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1685" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1686" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="1687" y="0"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position/>
-</item>
-<item historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="1578" y="147"/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position/>
-</item>
-<item historyLabel="LineoneQueryServlet.java" index="2">
-<position info="not_deleted" x="2292" y="0"/>
-</item>
-<item historyLabel="web.xml" index="3"/>
-<item historyLabel="LineoneListServlet.java" index="4">
-<position info="not_deleted" x="2292" y="0"/>
-</item>
-<item historyLabel="LineoneListServlet.java" index="4">
-<position info="not_deleted" x="2059" y="0"/>
-</item>
-<item historyLabel="WebServer.java" index="5">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="DbLineone.java" index="0">
-<position info="not_deleted" x="3515" y="13"/>
-</item>
-<item historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="1468" y="0"/>
-</item>
-<item historyLabel="LineoneListServlet.java" index="4">
-<position info="not_deleted" x="1821" y="0"/>
-</item>
-<item active="true" historyLabel="LineoneCreateServlet.java" index="1">
-<position info="not_deleted" x="1468" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>

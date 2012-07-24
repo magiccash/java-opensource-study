@@ -1,0 +1,13 @@
+package com.magic.search.client;
+
+public class SearchClient<P,R> {
+	
+	protected String serviceUrl = null;
+	
+	public SearchClient(String serviceUrl) {
+		this.serviceUrl = serviceUrl;
+	}
+	
+	public 
+
+}
