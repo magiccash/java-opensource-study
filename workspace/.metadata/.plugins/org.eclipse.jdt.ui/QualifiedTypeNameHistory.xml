@@ -12,8 +12,15 @@
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="com.magic.lineone.db.DbLineone"/>
 <fullyQualifiedTypeName name="com.magic.lineone.config.WebServiceConfiguration"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="org.json.JSONArray"/>
 <fullyQualifiedTypeName name="org.json.JSONObject"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.magic.search.client.SearchClient"/>
+<fullyQualifiedTypeName name="com.magic.search.bean.param.UserInfoParamBean"/>
+<fullyQualifiedTypeName name="com.magic.search.bean.result.UserInfoResultBean"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+<fullyQualifiedTypeName name="org.apache.solr.client.solrj.impl.HttpSolrServer"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,42 @@
+package com.magic.search.bean.result;
+
+import java.io.Serializable;
+import java.util.Date;
+
+public class UserInfoResultBean implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2357911363947087105L;
+
+	private int id;
+	
+	private String nick;
+	
+	private Date age;
+	
+	private short gender;
+	
+	private String introduction;
+	
+	private String location;
+	
+	private String organization;
+	
+	private String school;
+	
+	private String picurl;
+	
+	private int follows;
+	
+	private int fans;
+	
+	private int posts;
+	
+	private int visits;
+	
+	private short stauts;
+	
+	private Date lastActiveTime;
+}

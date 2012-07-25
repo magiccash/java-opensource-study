@@ -1,0 +1,42 @@
+
+import java.net.MalformedURLException;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.solr.client.solrj.SolrServer;
+import org.apache.solr.client.solrj.impl.CommonsHttpSolrServer;
+/**
+ * 
+ * @author luxianginng
+ *	solrserver宸ョ▼绫�
+ */
+public class SolrServerFactory {
+	
+	private static Map<String, SolrServer> solrServerMap = Collections.synchronizedMap(new HashMap<String, SolrServer>());
+	
+	private SolrServerFactory(){
+		
+	}
+	/**
+	 * 閫氳繃鏌ヨURL寰楀埌涓�釜solrserver
+	 * 
+	 * @param SOLR_URL				鏌ヨ杩炴帴
+	 * @return
+	 */
+	public static SolrServer getCommonsHttpSolrServer(final String SOLR_URL){
+		SolrServer solrServer = null;
+		if (!solrServerMap.containsKey(SOLR_URL)){
+			try {
+				solrServer = new CommonsHttpSolrServer(SOLR_URL);
+				if (solrServer != null){
+					solrServerMap.put(SOLR_URL, solrServer);
+				}
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+		}
+		return solrServerMap.get(SOLR_URL);
+	}
+	
+}

@@ -2,3 +2,5 @@
 1343118075005	Rename package 'com.magic.search.solr'
 1343120103881	Move compilation unit
 1343121223620	Move compilation unit
+1343202914026	Rename type 'UserInfoSearchClientImpl'
+1343203459614	Delete element

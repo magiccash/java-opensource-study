@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="33" version="2.0">
+<workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="130" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -28,7 +28,7 @@
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.pde.ui.buildEditor" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -38,10 +38,21 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoSearchClientSolrImpl.java" partName="UserInfoSearchClientSolrImpl.java" path="D:/java-opensource-study/workspace/Search/src/com/magic/search/client/impl/UserInfoSearchClientSolrImpl.java" title="UserInfoSearchClientSolrImpl.java" tooltip="Search/src/com/magic/search/client/impl/UserInfoSearchClientSolrImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Search/src/com/magic/search/client/impl/UserInfoSearchClientSolrImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="63" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SolrServerFactory.java" partName="SolrServerFactory.java" path="D:/java-opensource-study/workspace/Search/src/com/magic/search/util/solr/SolrServerFactory.java" title="SolrServerFactory.java" tooltip="Search/src/com/magic/search/util/solr/SolrServerFactory.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Search/src/com/magic/search/util/solr/SolrServerFactory.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="558" selectionTopPixel="238"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.callhierarchy.view" partName="Call Hierarchy">
@@ -129,7 +140,7 @@
 </view>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -308,11 +319,15 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@938160" orientation="512" selectedTabId="org.eclipse.jdt.callhierarchy.view" style="0">
 <fastViews>
 <view id="org.eclipse.jdt.callhierarchy.view" ratio="0.29977462"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -338,9 +353,9 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25828314" ratioLeft="343" ratioRight="985" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.5218094" ratioLeft="323" ratioRight="296" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="bottom" ratio="0.638126" ratioLeft="395" ratioRight="224" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
@@ -348,9 +363,7 @@
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@a03932" ratio="0.8269231" ratioLeft="860" ratioRight="180" relationship="2" relative="org.eclipse.ui.editorss">
@@ -475,7 +488,174 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/client/SearchClient.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/service/SearchService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/client/SearchClientImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/client/impl/SearchClientImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/client/UserInfoSearchClient.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/client/impl/UserInfoSearchClientImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/bean/result/UserInfoResultBean.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/bean/param/UserInfoParamBean.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/bean/param/UserInfoParamBean.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/bean/result/UserInfoResultBean.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/service/SearchService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/client/impl/UserInfoSearchClientSolrImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Search/src/com/magic/search/util/solr/SolrServerFactory.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Search/lib\/apache-solr-solrj-3.6.0.jar&lt;org.apache.solr.client.solrj.impl(CommonsHttpSolrServer.class"/>
+</editors>
+<item historyLabel="SearchClient.java" index="0">
+<position/>
+</item>
+<item historyLabel="SearchService.java" index="1">
+<position info="not_deleted" x="71" y="0"/>
+</item>
+<item historyLabel="SearchClient.java" index="0">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="SearchService.java" index="1">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="SearchClient.java" index="0">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="SearchClient.java" index="0">
+<position info="not_deleted" x="117" y="0"/>
+</item>
+<item historyLabel="SearchClient.java" index="0">
+<position info="not_deleted" x="135" y="0"/>
+</item>
+<item historyLabel="SearchClientImpl.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SearchClientImpl.java" index="3">
+<position/>
+</item>
+<item historyLabel="SearchClientImpl.java" index="3">
+<position/>
+</item>
+<item historyLabel="SearchClient.java" index="0">
+<position info="not_deleted" x="138" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClient.java" index="4">
+<position/>
+</item>
+<item historyLabel="SearchClient.java" index="0">
+<position info="not_deleted" x="79" y="12"/>
+</item>
+<item historyLabel="UserInfoSearchClient.java" index="4">
+<position/>
+</item>
+<item historyLabel="UserInfoSearchClientImpl.java" index="5">
+<position info="not_deleted" x="470" y="0"/>
+</item>
+<item historyLabel="UserInfoResultBean.java" index="6">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientImpl.java" index="5">
+<position info="not_deleted" x="470" y="0"/>
+</item>
+<item historyLabel="UserInfoParamBean.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientImpl.java" index="5">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClient.java" index="4">
+<position/>
+</item>
+<item historyLabel="SearchService.java" index="1">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClient.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientImpl.java" index="5">
+<position info="not_deleted" x="289" y="0"/>
+</item>
+<item historyLabel="SearchClientImpl.java" index="3">
+<position/>
+</item>
+<item historyLabel="UserInfoSearchClientImpl.java" index="5">
+<position info="not_deleted" x="289" y="0"/>
+</item>
+<item historyLabel="SearchClientImpl.java" index="3">
+<position/>
+</item>
+<item historyLabel="UserInfoSearchClientImpl.java" index="5">
+<position/>
+</item>
+<item historyLabel="SearchClientImpl.java" index="3">
+<position info="not_deleted" x="41" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientImpl.java" index="5">
+<position info="not_deleted" x="581" y="0"/>
+</item>
+<item historyLabel="SearchClientImpl.java" index="3">
+<position info="not_deleted" x="41" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientImpl.java" index="5">
+<position info="not_deleted" x="577" y="0"/>
+</item>
+<item historyLabel="UserInfoParamBean.java" index="8">
+<position info="not_deleted" x="2052" y="2"/>
+</item>
+<item historyLabel="UserInfoResultBean.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UserInfoParamBean.java" index="8">
+<position info="not_deleted" x="246" y="355"/>
+</item>
+<item historyLabel="UserInfoResultBean.java" index="9">
+<position info="not_deleted" x="161" y="0"/>
+</item>
+<item historyLabel="UserInfoParamBean.java" index="8">
+<position info="not_deleted" x="491" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientImpl.java" index="5">
+<position info="not_deleted" x="582" y="0"/>
+</item>
+<item historyLabel="SearchService.java" index="10">
+<position info="not_deleted" x="69" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientImpl.java" index="5">
+<position info="not_deleted" x="582" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientSolrImpl.java" index="11">
+<position info="not_deleted" x="490" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientSolrImpl.java" index="11">
+<position info="not_deleted" x="592" y="0"/>
+</item>
+<item historyLabel="SolrServerFactory.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientSolrImpl.java" index="11">
+<position info="not_deleted" x="498" y="0"/>
+</item>
+<item historyLabel="SolrServerFactory.java" index="12">
+<position/>
+</item>
+<item historyLabel="CommonsHttpSolrServer.class" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SolrServerFactory.java" index="12">
+<position info="not_deleted" x="575" y="0"/>
+</item>
+<item historyLabel="SolrServerFactory.java" index="12">
+<position info="not_deleted" x="306" y="0"/>
+</item>
+<item historyLabel="UserInfoSearchClientSolrImpl.java" index="11">
+<position info="not_deleted" x="586" y="0"/>
+</item>
+<item historyLabel="SolrServerFactory.java" index="12">
+<position info="not_deleted" x="558" y="10"/>
+</item>
+<item active="true" historyLabel="UserInfoSearchClientSolrImpl.java" index="11">
+<position info="not_deleted" x="586" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -492,10 +672,44 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="CommonsHttpSolrServer.class" tooltip="org.apache.solr.client.solrj.impl.CommonsHttpSolrServer">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Search/lib\/apache-solr-solrj-3.6.0.jar&lt;org.apache.solr.client.solrj.impl(CommonsHttpSolrServer.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SolrServerFactory.java" tooltip="Search/src/com/magic/search/util/solr/SolrServerFactory.java">
+<persistable path="/Search/src/com/magic/search/util/solr/SolrServerFactory.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SearchService.java" tooltip="Search/src/com/magic/search/service/SearchService.java">
+<persistable path="/Search/src/com/magic/search/service/SearchService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoResultBean.java" tooltip="Search/src/com/magic/search/bean/result/UserInfoResultBean.java">
+<persistable path="/Search/src/com/magic/search/bean/result/UserInfoResultBean.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoParamBean.java" tooltip="Search/src/com/magic/search/bean/param/UserInfoParamBean.java">
+<persistable path="/Search/src/com/magic/search/bean/param/UserInfoParamBean.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SearchClientImpl.java" tooltip="Search/src/com/magic/search/client/impl/SearchClientImpl.java">
+<persistable path="/Search/src/com/magic/search/client/impl/SearchClientImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoSearchClientImpl.java" tooltip="Search/src/com/magic/search/client/impl/UserInfoSearchClientImpl.java">
+<persistable path="/Search/src/com/magic/search/client/impl/UserInfoSearchClientImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoSearchClient.java" tooltip="Search/src/com/magic/search/client/UserInfoSearchClient.java">
+<persistable path="/Search/src/com/magic/search/client/UserInfoSearchClient.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SearchClientImpl.java" tooltip="Search/src/com/magic/search/client/SearchClientImpl.java">
+<persistable path="/Search/src/com/magic/search/client/SearchClientImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Search.java" tooltip="Search/src/com/magic/search/Search.java">
+<persistable path="/Search/src/com/magic/search/Search.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SearchClient.java" tooltip="Search/src/com/magic/search/SearchClient.java">
+<persistable path="/Search/src/com/magic/search/SearchClient.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbLineone.java" tooltip="line-one/src/com/magic/lineone/db/DbLineone.java">
 <persistable path="/line-one/src/com/magic/lineone/db/DbLineone.java"/>
 </file>
@@ -507,39 +721,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LoginServlet.java">
 <persistable path="/line-one/src/com/magic/lineone/servlet/LoginServlet.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineoneServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LineoneServlet.java">
-<persistable path="/line-one/src/com/magic/lineone/servlet/LineoneServlet.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CheckServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/CheckServlet.java">
-<persistable path="/line-one/src/com/magic/lineone/servlet/CheckServlet.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegisterServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/RegisterServlet.java">
-<persistable path="/line-one/src/com/magic/lineone/servlet/RegisterServlet.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbCircle.java" tooltip="line-one/src/com/magic/lineone/db/DbCircle.java">
-<persistable path="/line-one/src/com/magic/lineone/db/DbCircle.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbUser.java" tooltip="line-one/src/com/magic/lineone/db/DbUser.java">
-<persistable path="/line-one/src/com/magic/lineone/db/DbUser.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebServer.java" tooltip="line-one/src/com/magic/lineone/webserver/WebServer.java">
-<persistable path="/line-one/src/com/magic/lineone/webserver/WebServer.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LocalSessionStore.java" tooltip="line-one/src/com/magic/lineone/session/LocalSessionStore.java">
-<persistable path="/line-one/src/com/magic/lineone/session/LocalSessionStore.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogoutServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/LogoutServlet.java">
-<persistable path="/line-one/src/com/magic/lineone/servlet/LogoutServlet.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractServlet.java" tooltip="line-one/src/com/magic/lineone/servlet/AbstractServlet.java">
-<persistable path="/line-one/src/com/magic/lineone/servlet/AbstractServlet.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="ClassList.txt" tooltip="NaviveBayesClassify/TrainningSet/ClassList.txt">
-<persistable path="/NaviveBayesClassify/TrainningSet/ClassList.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="16.txt" tooltip="NaviveBayesClassify/TrainningSet/Sample/C000010/16.txt">
-<persistable path="/NaviveBayesClassify/TrainningSet/Sample/C000010/16.txt"/>
 </file>
 </mruList>
 </workbench>

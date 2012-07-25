@@ -1,0 +1,33 @@
+package com.magic.search.bean.result;
+
+import java.util.Date;
+
+public class UserInfoResultBean {
+
+    
+	private String nick;
+	
+	private Date age;
+	
+	private short gender;
+	
+	private String introduction;
+	
+	private String location;
+	
+	private String organization;
+	
+	private String school;
+	
+	private int follows;
+	
+	private int fans;
+	
+	private int posts;
+	
+	private int visits;
+	
+	private short stauts;
+	
+	private Date lastActiveTime;
+}

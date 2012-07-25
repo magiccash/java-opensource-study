@@ -1,0 +1,36 @@
+package com.magic.search.util.solr;
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+import org.apache.solr.client.solrj.SolrServer;
+import org.apache.solr.client.solrj.impl.HttpSolrServer;
+/**
+ * 
+ * @author magiccash
+ *	solrserver工程类
+ */
+public class SolrServerFactory {
+	
+	private static Map<String, SolrServer> solrServerMap = new ConcurrentHashMap<String, SolrServer>();
+	
+	private SolrServerFactory(){
+		
+	}
+	/**
+	 * 通过查询URL得到一个solrserver
+	 * 
+	 * @param serverUrl				查询连接
+	 * @return
+	 */
+	public static SolrServer getCommonsHttpSolrServer(final String serverUrl){
+		SolrServer solrServer = null;
+		if (!solrServerMap.containsKey(serverUrl)){
+			solrServer = new HttpSolrServer(serverUrl);
+			if (solrServer != null){
+				solrServerMap.put(serverUrl, solrServer);
+			}
+		}
+		return solrServerMap.get(serverUrl);
+	}
+}

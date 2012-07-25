@@ -1,0 +1,13 @@
+package com.magic.search.bean.param;
+
+import java.util.Date;
+
+public class UserInfoParamBean {
+	
+	private String nick;
+	
+	private Date age;
+	
+	private String gen
+
+}
